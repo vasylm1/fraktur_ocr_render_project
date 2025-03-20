@@ -3,9 +3,9 @@ from fraktur_reader.ocr_engine import extract_text
 from fraktur_reader.transliterator import transliterate
 
 st.set_page_config(page_title="Fraktur OCR Web App", layout="wide")
-st.title("📝 Fraktur / Schwabacha / Antiqua OCR Reader (Render Hosted)")
+st.title("📝 Fraktur OCR)")
 
-model = st.selectbox("Wybierz model OCR:", ["deu", "deu-frak"])
+model = st.selectbox("Wybierz model OCR:", ["deu"])
 uploaded_file = st.file_uploader("Wgraj obraz (PNG, JPG, JPEG, BMP)", type=['png', 'jpg', 'jpeg', 'bmp'])
 
 if uploaded_file:
