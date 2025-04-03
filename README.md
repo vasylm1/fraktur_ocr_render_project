@@ -1,18 +1,17 @@
-# Fraktur OCR – Streamlit App (Render.com + Docker + Tesseract OCR)
+Fraktur OCR – Streamlit App (Render.com + Docker + Tesseract OCR)
 
-📝 Aplikacja OCR online do rozpoznawania niemieckiego pisma gotyckiego (Fraktur, Schwabacha, Antiqua) oparta na Streamlit, Docker i Tesseract OCR.
+📝 An online OCR application for recognizing German blackletter script (Fraktur, Schwabacher, Antiqua) based on Streamlit, Docker, and Tesseract OCR.
 
-## 🔥 Jak uruchomić na Render.com:
+🔥 How to launch on Render.com:
+	1.	Go to https://render.com
+	2.	Sign in or create a free account
+	3.	Click New Web Service
+	4.	Choose Deploy from GitHub repo OR Upload repo ZIP as your own project
+	5.	Render will detect the Dockerfile and automatically build the app
+	6.	Once built, you’ll get a working link (e.g., https://fraktur-ocr.onrender.com)
 
-1. Wejdź na https://render.com
-2. Zaloguj się lub utwórz darmowe konto
-3. Kliknij **New Web Service**
-4. Wybierz opcję **Deploy from GitHub repo** LUB **Upload repo ZIP jako własny projekt**
-5. Render wykryje `Dockerfile` i zbuduje aplikację automatycznie
-6. Po zbudowaniu otrzymasz działający link (np. `https://fraktur-ocr.onrender.com`)
-
-## 📁 Zawartość repozytorium:
-- `app.py` – frontend Streamlit
-- `fraktur_reader/` – kod OCR + transliteracja
-- `Dockerfile` – środowisko z Tesseractem
-- `requirements.txt` – zależności Python
+📁 Repository contents:
+	•	app.py – Streamlit frontend
+	•	fraktur_reader/ – OCR code + transliteration
+	•	Dockerfile – environment with Tesseract
+	•	requirements.txt – Python dependencies
